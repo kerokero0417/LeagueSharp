@@ -21,7 +21,7 @@ namespace ToasterLoading
     {
         private const int WM_KEYUP = 0x101;
         private const int DisableKey = 32;
-        private const int SecondsToWait = 250;
+        private const int SecondsToWait = 1200;
         private static bool Escaped;
         private static Timer _escapeTimer; // Kills _failsafeTimer and _ticker when user presses spacebar
         private static Timer _failsafeTimer; // Sends packet if user does not press spacebar after SecondsToWait seconds
